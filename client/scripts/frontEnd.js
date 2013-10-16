@@ -3,6 +3,9 @@ console.log("Hello World.");
 var url = require('url');
 console.log(url.parse(window.location.href));
 
+var Keyboard = require('./Keyboard');
+var keyboard = new Keyboard();
+
 var Scene = require('./Scene');
 var scene = new Scene();
 scene.load('scenes/testScene.json');
