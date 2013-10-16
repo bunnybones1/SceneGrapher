@@ -1,0 +1,17 @@
+{
+    "nodes": [
+        {
+            "name": "first"
+        },
+        {
+            "name": "second"
+        }
+    ],
+    "connections": [
+        {
+            "name": "first-to-second",
+            "from": "first",
+            "to": "second"
+        }
+    ]
+}

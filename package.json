@@ -1,0 +1,12 @@
+{
+  "name": "SceneGrapher",
+  "version": "0.0.1",
+  "author": "Tomasz Dysinski <oz@bunnybones.com>",
+  "description": "SceneGrapher is an interactive JSON visualize/editor. Meant as a foundation for tools that need to edit JSON.",
+  "contributors": [],
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "browserify": "~2.34.0",
+    "beefy": "~0.4.4",
+  }
+}

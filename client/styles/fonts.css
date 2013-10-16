@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'PT_Sans_Regular';
+    src: url('../font/PT_Sans-Web-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../font/PT_Sans-Web-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/PT_Sans-Web-Regular.woff') format('woff'), /* Modern Browsers */ url('../font/PT_Sans-Web-Regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../font/PT_Sans-Web-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'PT_Sans_Italic';
+    src: url('../font/PT_Sans-Web-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../font/PT_Sans-Web-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/PT_Sans-Web-Italic.woff') format('woff'), /* Modern Browsers */ url('../font/PT_Sans-Web-Italic.ttf') format('truetype'), /* Safari, Android, iOS */ url('../font/PT_Sans-Web-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'PT_Sans_Bold';
+    src: url('../font/PT_Sans-Web-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../font/PT_Sans-Web-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/PT_Sans-Web-Bold.woff') format('woff'), /* Modern Browsers */ url('../font/PT_Sans-Web-Bold.ttf') format('truetype'), /* Safari, Android, iOS */ url('../font/PT_Sans-Web-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'PT_Sans_BoldItalic';
+    src: url('../font/PT_Sans-Web-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('../font/PT_Sans-Web-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/PT_Sans-Web-BoldItalic.woff') format('woff'), /* Modern Browsers */ url('../font/PT_Sans-Web-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */ url('../font/PT_Sans-Web-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'MotoSans-Regular';
+    src: url('../font/MotoSans-Regular.eot');
+    src: local('☺'), url('../font/MotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../font/MotoSans-Regular.woff') format('woff'), url('../font/MotoSans-Regular.ttf') format('truetype'), url('../font/MotoSans-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MotoSans-Medium';
+    src: url('../font/MotoSans-Medium.eot');
+    src: local('☺'), url('../font/MotoSans-Medium.eot?#iefix') format('embedded-opentype'), url('../font/MotoSans-Medium.woff') format('woff'), url('../font/MotoSans-Medium.ttf') format('truetype'), url('../font/MotoSans-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MotoSans-Semibold';
+    src: url('../font/MotoSans-Semibold.eot');
+    src: local('☺'), url('../font/MotoSans-Semibold.eot?#iefix') format('embedded-opentype'), url('../font/MotoSans-Semibold.woff') format('woff'), url('../font/MotoSans-Semibold.ttf') format('truetype'), url('../font/MotoSans-Semibold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
