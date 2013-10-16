@@ -17,7 +17,7 @@ Client
 * @MikkoH's jsOOP adapted for node.js
 
 Launch the client live dev environment by running 
-```beefy scripts/frontEnd.js --live --cwd client
 ```
-
+beefy scripts/frontEnd.js --live --cwd client
+```
 then go to localHost:9966
