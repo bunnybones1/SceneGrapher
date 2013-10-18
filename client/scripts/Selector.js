@@ -5,19 +5,20 @@ var Selector = new Class({
 	initialize: function() {
 		this.selection = [];
 	},
+	isThisSelected:function(object) {
+		return this.selection.indexOf(object) != -1;
+	},
 	select: function(object) {
 		if(!Keyboard.instance.isDown(Keyboard.CTRL)) this.deselectAll();
 		if(this.selection.indexOf(object) == -1) {
 			this.selection.push(object);
 			object.display.addClass("selected");
-			console.log("select", object);
 		}
 	},
 	deselect: function(object) {
 		if(this.selection.indexOf(object) != -1) {
 			this.selection.push(object);
 			object.display.removeClass("selected");
-			console.log("deselect", object);
 		}
 	},
 	deselectAll: function() {

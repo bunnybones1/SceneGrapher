@@ -1,10 +1,25 @@
 {
     "nodes": [
         {
-            "name": "first"
+            "name": "first",
+            "transform" : {
+                "x" : 100,
+                "y" : 100
+            }
         },
         {
-            "name": "second"
+            "name": "second",
+            "transform" : {
+                "x" : 300,
+                "y" : 100
+            }
+        },
+        {
+            "name": "third",
+            "transform" : {
+                "x" : 200,
+                "y" : 300
+            }
         }
     ],
     "connections": [
@@ -12,6 +27,16 @@
             "name": "first-to-second",
             "from": "first",
             "to": "second"
+        },
+        {
+            "name": "second-to-third",
+            "from": "second",
+            "to": "third"
+        },
+        {
+            "name": "third-to-first",
+            "from": "third",
+            "to": "first"
         }
     ]
 }
