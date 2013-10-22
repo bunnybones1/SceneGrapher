@@ -6,8 +6,6 @@
   "contributors": [],
   "dependencies": {
     "grunt": "~0.4.1",
-    "grunt-shell": "*",
-    "browserify": "~2.34.0",
     "beefy": "~0.4.4",
     "mongoose": "*"
   },
