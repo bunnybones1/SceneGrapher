@@ -1,6 +1,6 @@
 var Class = require('./class/Class');
 var Selector = require('./Selector');
-var Transformer = new Class({s
+var Transformer = new Class({
 	lastX: -1,
 	lastY: -1,
 	initialize: function() {
