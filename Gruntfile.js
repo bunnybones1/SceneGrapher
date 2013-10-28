@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 	    shell: {
 	        mongo: {
 	            command: [
-	                'mkdir database/db',
+	                'ls',
 	                '"c:\\Program Files\\mongodb\\bin\\mongod.exe" --dbpath "c:\\Tomasz\\repos\\ToyotaBeTheHero\\sceneGrapher\\database"'
 	            ].join('&&'),
 		        options: {
